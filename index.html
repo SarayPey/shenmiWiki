@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="SarayPey">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+        <form>
+            <label for="ocBus">Buscar personajes</label>
+            <input type="ocBus" name="busca">
+            <button>BUSCAR</button>
+        </form>
+    <main>
+        <div> Pasa el cursor por aquí
+            <a href="ocnav1.html" id="botonRedic">Entrar a la aventura</p>
+        </div>
+    </main>
+    <script>
+        const busqueda = document.querySelector('form')
+        busqueda.addEventListener('submit', function(event) {
+            event.preventDefault()
+
+            let ocAdo = new FormData('osBus')
+            let check = ocAdo.get('busca')
+
+            console.log(check)
+        })
+    </script>
+</body>
+</html>

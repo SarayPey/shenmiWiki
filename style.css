@@ -1,0 +1,40 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    transition: all .2s;
+}
+body {
+    background-image: linear-gradient(#000018, #090018, #190035, #3f0144, #80113f, #af5328, #c4a000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form, input, label, button {
+    color: #e4ba00;
+}
+a {
+    display: block;
+    opacity: 0%;
+    margin: auto;
+    color: white;
+    background-color: #e4ba00;
+    text-align: center;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+}
+div:hover a {
+    display: block;
+    opacity: 100%;
+}
+.pagination {
+    background-color: #303030;
+    text-align: center;
+    text-decoration: none;
+}
+
+div a:hover {
+    transform: scale(1.1);
+}

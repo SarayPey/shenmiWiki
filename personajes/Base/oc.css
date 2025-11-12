@@ -1,0 +1,206 @@
+:root {
+    --blanco: #ffffff;
+    --light: #eeeeee;
+    --light2: #d4d4d4;
+    --mid: #959595;
+    --bg: #555555;
+    --section: #222222;
+    --dark: #101010;
+    --black: #000000;
+}
+* {
+    color: var(--blanco);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg);
+    padding-left: 25px;
+}
+
+
+main {
+    margin-left: 20px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 26px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+}
+
+
+
+#headPicName {
+    display: flex;
+    margin-left: 25px;
+}
+#mainPic {
+    width: 30%;
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+blockquote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.OCsect {
+    background-color: var(--section);
+    padding: 1px 25px 20px;
+    border-radius: 10px;
+    transition: all .2s;
+    margin: 15px;
+    width: 650px;
+    display: block;
+}
+.historia blockquote{
+    margin: 20px;
+}
+.historia blockquote em{
+    opacity: 45%;
+}
+.content > div > h4 {
+    font-size: 16px;
+    height: max-content;
+    width: max-content;
+    position: absolute;
+}
+.content > div {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.content > div .conTitle, .conTipo, .conDesc, .linkCont {
+    filter: blur(2.5px);
+}
+.content div img {
+    border-radius: 10px;
+    filter: brightness(50%) blur(2.5px) saturate(25%);
+}
+.content div div:hover{
+    transform: scale(1.05);
+}
+.content div div:hover img{
+    box-shadow: 0px 0px 10px 1px var(--light);
+    filter: brightness(100%) blur(0);
+}
+.content div div:hover .conTitle {
+    filter: blur(0);
+}
+.content div div:hover .conTipo {
+    filter: blur(0);
+}
+.content div div:hover .conDesc {
+    filter: blur(0);
+}
+.content div div:hover .linkCont  {
+    filter: blur(0);
+}
+.content > div > div > h6{
+    font-size: 16px;
+}
+.content > div > div > h5{
+    font-size: 10px;
+    opacity: 45%;
+}
+.content > div > div > p{
+    font-size: 12px;
+}
+.content > div > div {
+    margin: 25px;
+}
+.content > div > h4, h5, h6, p{
+    margin: 1%;
+}
+a:hover {
+    color: var(--light2);
+}
+.content i a:hover{
+    color: var(--mid);
+    opacity: 100%;
+}
+
+aside {
+    padding: 0 0 10px 0;
+}
+aside h1 {
+    font-style: italic;
+    text-align: center;
+}
+aside div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galIm {
+    padding: 20px;
+    background-color: #101010;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.galIm .columna {
+    flex-direction: column;
+    align-items: center;
+}
+
+aside .galIm img {
+    filter: brightness(50%) blur(5px);
+    align-content: center;
+}
+.galIm img:hover {
+    width: 50%;
+    height: 50%;
+    filter: brightness(100%) blur(0) saturate(100%);
+}
+
+footer {
+    padding-bottom: 10px;
+}
+footer > i, i b, a{
+    color: var(--mid);
+}
+
+footer i b a:hover {
+    color: var(--blanco);
+    opacity: 100%;
+}
+
+/* .OCsect p {
+    color: #ffffff00;
+}
+.OCsect:hover p {
+    color: #ffffff;
+    display: block;
+} */
+
+@media (max-width: 320px) {
+    header #mainPic {
+        margin-left: 20px;
+        padding-left: 0;
+        }
+    aside {
+        margin: 0;
+        padding-left: 250px;
+    }
+}

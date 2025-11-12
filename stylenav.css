@@ -1,0 +1,224 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    transition: all .2s;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: linear-gradient(#09090e, #0c041a, #220c3b, #420e46, #702041, #9e2d19, #bb8a20);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#headText {
+    text-align: center;
+    font-size: xxx-large;
+    text-shadow: 0px 0px 5px #fff23b, 0px 0px 15px #fff23b;
+    margin: 25px auto 30px auto;
+}
+.OCsPage {
+    margin: auto 8px 8px 50px;
+}
+.OCbutton{
+    background-color: #5e5e5e;
+    color: #383838;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px;
+    text-decoration: none;
+    transition: all .2s;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}
+.pagination {
+    background-color: #00000000;
+    text-align: center;
+    text-decoration: none;
+}
+.pagination a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all .2s;
+}
+.pagination a.active{
+  background-color: #f8e268;
+  color: rgb(146, 115, 11);
+  border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: #31011d;
+    color: rgb(224, 98, 115);
+}
+
+footer {
+    margin-bottom: 25px;
+}
+
+footer a {
+    margin: auto;
+    color: white;
+    background-color: #e4ba00;
+    text-align: center;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+}
+footer a:hover {
+    transform: scale(1.1);
+}
+a:hover {
+    transform: scale(1.1);
+}
+.OCbutton:hover {
+    opacity: 100%;
+    box-shadow: 0px 0px 5px 2px, 0px 0px 15px -1px inset;
+}
+.OCbutton:active {
+    color: #ffffff;
+    box-shadow: 0px 0px 5px 2px, 0px 0px 15px 10px inset;
+}
+.Willow:hover {
+    background-color: #00a2ff;
+    color: #c7f2ff;
+}
+.Sara:hover {
+    background-color: #d4b91b;
+    color: #fffdbd;
+}
+.Akane:hover {
+    background-color: #662e2e;
+    color: #f0756c;
+}
+.Nero:hover {
+    background-color: #33662f;
+    color: #bdf7cc;
+}
+.Akiko:hover {
+    background-color: #b19600;
+    color: #fffacf;
+}
+.Darya:hover {
+    background-color: #da8300;
+    color: #ffd7a3;
+}
+.Andrés:hover {
+    background-color: #191994;
+    color: #7096ff;
+}
+.Alejandro:hover {
+    background-color: #f1e288;
+    color: #8a5f0f;
+}
+.Melissa:hover {
+    background-color: #280c5c;
+    color: #7a3fe7;
+}
+.Laura:hover {
+    background-color: #315f31;
+    color: #94ee8c;
+}
+.Alexa:hover {
+    background-color: #742323;
+    color: #e98181;
+}
+.Eliza:hover {
+    background-color: #073a86;
+    color: #7dcfff;
+}
+.Violeta:hover {
+    background-color: #4c1680;
+    color: #b379e2;
+}
+.Emma:hover {
+    background-color: #856705;
+    color: #eedd47;
+}
+.James:hover {
+    background-color: #456937;
+    color: #bbe6a8;
+}
+.Joseph:hover {
+    background-color: #581515;
+    color: #dd3232;
+}
+.Jacob:hover {
+    background-color: #290303;
+    color: #9b2020;
+}
+.Cara:hover {
+    background-color: #7d22b9;
+    color: #e283ff;
+}
+.Diana:hover {
+    background-color: #006cb4;
+    color: #99e6fd;
+}
+.Daniel:hover {
+    background-color: #851339;
+    color: #e66289;
+}
+.Alec:hover {
+    background-color: #a04d16;
+    color: #ffac68;
+}
+.Christian:hover {
+    background-color: #0f359c;
+    color: #59a6ee;
+}
+.Michael:hover {
+    background-color: #0699b3;
+    color: #b9f5ff;
+}
+.Connor:hover {
+    background-color: #637a2c;
+    color: #e9ff9a;
+}
+.Adam:hover {
+    background-color: #d35f00;
+    color: #ffd68a;
+}
+.Brayan:hover {
+    background-color: #1d8622;
+    color: #c7faa9;
+}
+.Luis:hover {
+    background-color: #700909;
+    color: #d15c5c;
+}
+.Evelyn:hover {
+    background-color: #960d8a;
+    color: #f563e9;
+}
+.nombre:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.nombre:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.nombre:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.nombre:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.nombre:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.nombre:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
