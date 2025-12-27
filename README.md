@@ -1,2 +1,3 @@
 # shenmiWiki
-[Ingresa al sitio aquí](https://shenmiwiki.netlify.app/)
+[Ingresa aquí](https://saraypey.github.io/shenmiWiki/)
+[Alternativa: Netlify](https://shenmiwiki.netlify.app/)
