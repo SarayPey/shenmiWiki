@@ -1,11 +1,11 @@
 :root {
 	--blanco: #ffffff;
-	--light: #eeeeee;
-	--light2: #d4d4d4;
-	--mid: #959595;
-	--bg: #555555;
-	--section: #222222;
-	--dark: #101010;
+	--light: #fffed2;
+	--light2: #9bffff;
+	--mid: #fad047;
+	--bg: #976b0d;
+	--section: #102eaf;
+	--dark: #06032b;
 	--black: #000000;
 }
 
@@ -78,7 +78,7 @@ hr {
   width: 100%;
   height: 100%;
   object-fit: cover;
-	transform: scale(1.75) translate(0px, 15px);
+	transform: scale(1.75) translate(5px, 50px);
   display: block;
 }
 
